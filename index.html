@@ -1,0 +1,1760 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- scroll animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <title>HeroBiz</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="0">
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container-fluid nav-data">
+        <a class="nav-logo" href="#">SpaceZ</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header align-self-end">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <ul class="navbar-nav justify-content-center">
+            <li class="nav-item px-3">
+              <a
+                class="nav-link navbar_link navlink_active"
+                aria-current="page"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link navbar_link" href="#about">About</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link navbar_link" href="#services">Services</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link navbar_link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link navbar_link" href="#team">Team</a>
+            </li>
+            <li class="nav-item dropdown px-3">
+              <button
+                class="nav-link dropdown-toggle drpdown"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                Mega Menu
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#"><strong>Link1</strong></a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"><strong>link2</strong></a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"><strong>link3</strong></a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown px-3">
+              <a
+                class="nav-link dropdown-toggle drpdown"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Dropdown</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#"><strong>Link</strong></a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    ><strong>Another link</strong></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    ><strong>A third link</strong>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link navbar_link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- introduction-->
+    <section
+      class="intro"
+      id="home"
+      data-aos="zoom-out"
+      data-aos-duration="2000"
+      style="padding-top: 100px"
+    >
+      <div class="container text-center">
+        <figure class="w-50 h-50 m-auto pb-5 svg-img">
+          <img src="img\img1.svg" class="img-fluid animate" alt="svg-img" />
+        </figure>
+        <h1 class="display-5 intro-heading">Welcome to <span>SpaceZ</span></h1>
+        <p class="intro-prgh">
+          Here you can find some awesome things, so tied your sitbelt and stay
+          tuned till the last.
+        </p>
+        <a href="#about" class="get-started m-auto">Get Started</a>
+      </div>
+    </section>
+    <!-- introduction ends-->
+
+    <!-- box-section -->
+    <div class="container-fluid box-section" style="padding-top: 100px">
+      <div class="container boxes">
+        <div class="box p-4">
+          <i
+            class="fa-solid fa-heart-pulse"
+            style="color: rgb(14, 162, 189); font-size: 2em"
+          ></i>
+          <h5 class="pt-4 box-heading">Awesome Things</h5>
+          <p class="box-prgh">
+            awesome things like you can take part in upcoimng programs with us
+          </p>
+        </div>
+        <div class="box p-4">
+          <i
+            class="fa-brands fa-apple"
+            style="color: rgb(14, 162, 189); font-size: 2em"
+          ></i>
+          <h5 class="pt-4 box-heading">Great Works</h5>
+          <p class="box-prgh">
+            awesome things like you can take part in upcoimng programs with us
+          </p>
+        </div>
+        <div class="box p-4">
+          <i
+            class="fa-solid fa-city"
+            style="color: rgb(14, 162, 189); font-size: 2em"
+          ></i>
+          <h5 class="pt-4 box-heading">Powerful Porformance</h5>
+          <p class="box-prgh">
+            awesome things like you can take part in upcoimng programs with us
+          </p>
+        </div>
+        <div class="box p-4">
+          <i
+            class="fa-solid fa-hippo"
+            style="color: rgb(14, 162, 189); font-size: 2em"
+          ></i>
+          <h5 class="pt-4 box-heading">Don't Forget to Like</h5>
+          <p class="box-prgh">
+            awesome things like you can take part in upcoimng programs with us
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- box-section ends -->
+
+    <!-- About-us -->
+    <section
+      class="about-us mt-5 mb-5"
+      id="about"
+      style="padding-top: 100px"
+    >
+      <div class="container">
+        <div class="about-header" data-aos="fade-up" data-aos-duration="1000">
+          <h1 class="text-center pb-3 fw-light opacity-75">About Us</h1>
+          <p class="about-prgh text-center">
+            We are here to help the people who are unable to get the job. So
+            read all the information carefully. It may help you.
+          </p>
+        </div>
+        <div class="row" data-aos="fade-up" data-aos-duration="2000">
+          <div class="col-lg-4 mt-5 about-img">
+            <figure class="pt-4 ps-4">
+              <img src="img\img2.jpg" class="img-fluid" alt="about-img" />
+            </figure>
+          </div>
+          <div class="col-lg-8 mt-5 pt-4 ps-3">
+            <h4 class="fw-light pb-4">
+              We Provide You The Different Facilities In Our Company
+            </h4>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="tab" href="#traning"
+                  >Traning</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#bootcamp"
+                  >Bootcamp</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#intern"
+                  >Intern</a
+                >
+              </li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div id="traning" class="container tab-pane active">
+                <br />
+                <p class="tab-pargh">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                  The point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution of letters
+                </p>
+                <h5>
+                  <i class="fa-solid fa-check pe-2" style="color: #0ea2bd"></i
+                  >Repudiandae rerum velit modi et officia quasi facilis
+                </h5>
+                <p>
+                  We provide you a best way of taeching and doing practical
+                  rather than providing theory. From this students will able to
+                  do the project easily. Our aim is to provide great knowledge
+                  and understanding
+                </p>
+                <h5>
+                  <i class="fa-solid fa-check pe-2" style="color: #0ea2bd"></i>
+                  Incidunt non veritatis illum ea ut nisi
+                </h5>
+                <p>
+                  Right way to be sucess in life is to have aim or goal in life.
+                  This helps to he/she what actually we need to do in life.
+                  Lastly constancy is very important.
+                </p>
+                <h5>
+                  <i class="fa-solid fa-check pe-2" style="color: #0ea2bd"></i
+                  >Omnis ab quia nemo dignissimos rem eum quos..
+                </h5>
+                <p>
+                  Eius alias aut cupiditate. Dolor voluptates animi ut
+                  blanditiis quos nam. Magnam officia aut ut alias quo explicabo
+                  ullam esse. Sunt magnam et dolorem eaque magnam odit enim
+                  quaerat. Vero error error voluptatem eum people are thinking
+                  about what is right or wrong.
+                </p>
+              </div>
+
+              <div id="bootcamp" class="container tab-pane fade">
+                <br />
+                <p class="tab-pargh">
+                  Consequuntur inventore voluptates consequatur aut vel et. Eos
+                  doloribus expedita. Sapiente atque consequatur minima nihil
+                  quae aspernatur quo suscipit voluptatem.
+                </p>
+                <h5>
+                  <i class="fa-solid fa-check pe-2" style="color: #0ea2bd"></i
+                  >Repudiandae rerum velit modi et officia quasi facilis
+                </h5>
+                <p>
+                  We provide you a best way of taeching and doing practical
+                  rather than providing theory. From this students will able to
+                  do the project easily. Our aim is to provide great knowledge
+                  and understanding
+                </p>
+                <h5>
+                  <i class="fa-solid fa-check pe-2" style="color: #0ea2bd"></i>
+                  Incidunt non veritatis illum ea ut nisi
+                </h5>
+                <p>
+                  Right way to be sucess in life is to have aim or goal in life.
+                  This helps to he/she what actually we need to do in life.
+                  Lastly constancy is very important.
+                </p>
+                <h5>
+                  <i class="fa-solid fa-check pe-2" style="color: #0ea2bd"></i
+                  >Omnis ab quia nemo dignissimos rem eum quos..
+                </h5>
+                <p>
+                  Eius alias aut cupiditate. Dolor voluptates animi ut
+                  blanditiis quos nam. Magnam officia aut ut alias quo explicabo
+                  ullam esse. Sunt magnam et dolorem eaque magnam odit enim
+                  quaerat. Vero error error voluptatem eum people are thinking
+                  about what is right or wrong.
+                </p>
+              </div>
+
+              <div id="intern" class="container tab-pane fade">
+                <br />
+                <p class="tab-pargh">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour,
+                </p>
+                <h5>
+                  <i class="fa-solid fa-check pe-2" style="color: #0ea2bd"></i
+                  >Repudiandae rerum velit modi et officia quasi facilis
+                </h5>
+                <p>
+                  We provide you a best way of taeching and doing practical
+                  rather than providing theory. From this students will able to
+                  do the project easily. Our aim is to provide great knowledge
+                  and understanding
+                </p>
+                <h5>
+                  <i class="fa-solid fa-check pe-2" style="color: #0ea2bd"></i>
+                  Incidunt non veritatis illum ea ut nisi
+                </h5>
+                <p>
+                  Right way to be sucess in life is to have aim or goal in life.
+                  This helps to he/she what actually we need to do in life.
+                  Lastly constancy is very important.
+                </p>
+                <h5>
+                  <i class="fa-solid fa-check pe-2" style="color: #0ea2bd"></i
+                  >Omnis ab quia nemo dignissimos rem eum quos..
+                </h5>
+                <p>
+                  Eius alias aut cupiditate. Dolor voluptates animi ut
+                  blanditiis quos nam. Magnam officia aut ut alias quo explicabo
+                  ullam esse. Sunt magnam et dolorem eaque magnam odit enim
+                  quaerat. Vero error error voluptatem eum people are thinking
+                  about what is right or wrong.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About-us Ends -->
+
+    <!-- logo-swiper -->
+    <div class="container-fluid logo-swiper">
+      <div class="container" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="swiper sample-slider mb-5">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/client-1.png" class="img-fluid" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/client-2.png" class="img-fluid" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/client-3.png" class="img-fluid" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/client-4.png" class="img-fluid" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/client-5.png" class="img-fluid" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/client-6.png" class="img-fluid" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/client-7.png" class="img-fluid" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/client-8.png" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- logo-swiper ends -->
+
+    <!-- container1 -->
+    <div class="container-fluid mb-5 container1">
+      <div
+        class="container mb-5 wraper-1"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+      >
+        <div class="row">
+          <div class="col-lg-8 mt-5 order-last order-lg-first">
+            <h1 class="opacity-75 fw-bold">
+              Self Employed By Doing Hard Work And Dedication
+            </h1>
+            <p class="opacity-75 fw-bold pt-4">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia deserunt mollit
+              anim id est laborum.
+            </p>
+            <a href="#" class="get-started mt-4">Call To Action</a>
+          </div>
+
+          <div class="col-lg-4 pt-5 order-first order-lg-last container1-img">
+            <img src="img/img3.jpg" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- container1 ends -->
+
+    <!-- container2 -->
+    <div class="container-fluid mb-5 container2">
+      <div class="row" data-aos="fade-up" data-aos-duration="800">
+        <div class="col-lg-6 p-0">
+          <iframe
+            src="https://www.youtube.com/embed/wgWwUgHVQ7o"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="col-lg-6 container2-content p-0">
+          <div class="p-5 container2-data">
+            <h2 class="text-light">
+              Voluptatem dignissimos provident quasi corporis
+            </h2>
+            <p class="text-light">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <p class="text-light">
+              <i
+                class="fa-regular fa-circle-check pe-2"
+                style="color: #0ea2bd"
+              ></i
+              >Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p class="text-light">
+              <i
+                class="fa-regular fa-circle-check pe-2"
+                style="color: #0ea2bd"
+              ></i>
+              Duis aute irure dolor in reprehenderit in voluptate velit.
+            </p>
+            <p class="text-light">
+              <i
+                class="fa-regular fa-circle-check pe-2"
+                style="color: #0ea2bd"
+              ></i
+              >Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+              aute irure dolor in reprehenderit in voluptate trideta
+              storacalaperda mastiro dolore eu fugiat nulla pariatur.
+            </p>
+
+            <a href="#services" class="get-started"
+              >Read More<i
+                class="fa-solid fa-arrow-right ps-2"
+                style="color: #ffffff; position: relative"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- container2 Ends -->
+
+    <!-- our services -->
+    <section
+      class="our-service"
+      id="services"
+      style="padding-top: 100px"
+    >
+      <div class="container">
+        <div data-aos="fade-up" data-aos-duration="1000">
+          <h1 class="text-center pb-3 fw-light opacity-75">Our Services</h1>
+          <p class="text-center">
+            We provide many services as per the demand of upcoming technology.
+            Therefore you can check-out our services.
+          </p>
+        </div>
+        <div class="row mt-5">
+          <div
+            class="col-lg-4 col-md-6 service-container mb-5"
+            data-aos="zoom-in"
+            data-aos-duration="900"
+          >
+            <figure>
+              <img
+                src="img/services-1.jpg"
+                class="img-fluid"
+                alt="services-1"
+              />
+            </figure>
+            <div class="service-data">
+              <div class="service-icon">
+                <i
+                  class="fa-solid fa-camera-retro"
+                  style="color: #0ea2bd; font-size: 45px"
+                ></i>
+              </div>
+              <h5 class="text-center pt-4">Power On Self Test</h5>
+              <p class="text-center pt-2">
+                The following example shows how to create three equal-width
+                columns, on all devices and screen widths so be caref
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 col-md-6 service-container mb-5"
+            data-aos="zoom-in"
+            data-aos-duration="1100"
+          >
+            <figure>
+              <img
+                src="img/services-2.jpg"
+                class="img-fluid"
+                alt="services-2"
+              />
+            </figure>
+            <div class="service-data">
+              <div class="service-icon">
+                <i
+                  class="fa-solid fa-ghost"
+                  style="color: #0ea2bd; font-size: 45px"
+                ></i>
+              </div>
+              <h5 class="text-center pt-4">Esole commandi</h5>
+              <p class="text-center pt-2">
+                Bootstrap 5 is the newest version of Bootstrap, which is the
+                most popular HTML, CSS, and JavaScript framework.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 col-md-6 service-container mb-5"
+            data-aos="zoom-in"
+            data-aos-duration="1300"
+          >
+            <figure>
+              <img
+                src="img/services-3.jpg"
+                class="img-fluid"
+                alt="services-3"
+              />
+            </figure>
+            <div class="service-data">
+              <div class="service-icon">
+                <i
+                  class="fa-solid fa-fire"
+                  style="color: #0ea2bd; font-size: 45px"
+                ></i>
+              </div>
+              <h5 class="text-center pt-4">Photography</h5>
+              <p class="text-center pt-2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit...Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris...
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 col-md-6 service-container mb-5"
+            data-aos="zoom-in"
+            data-aos-duration="900"
+          >
+            <figure>
+              <img
+                src="img/services-4.jpg"
+                class="img-fluid"
+                alt="services-4"
+              />
+            </figure>
+            <div class="service-data">
+              <div class="service-icon">
+                <i
+                  class="fa-solid fa-coins"
+                  style="color: #0ea2bd; font-size: 45px"
+                ></i>
+              </div>
+              <h5 class="text-center pt-4">Financial Growth</h5>
+              <p class="text-center pt-2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit...Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris...
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 col-md-6 service-container mb-5"
+            data-aos="zoom-in"
+            data-aos-duration="1100"
+          >
+            <figure>
+              <img
+                src="img/services-5.jpg"
+                class="img-fluid"
+                alt="services-5"
+              />
+            </figure>
+            <div class="service-data">
+              <div class="service-icon">
+                <i
+                  class="fa-solid fa-city"
+                  style="color: #0ea2bd; font-size: 45px"
+                ></i>
+              </div>
+              <h5 class="text-center pt-4">Digital Marketing</h5>
+              <p class="text-center pt-2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit...Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris...
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 col-md-6 service-container mb-5"
+            data-aos="zoom-in"
+            data-aos-duration="1300"
+          >
+            <figure>
+              <img
+                src="img/services-6.jpg"
+                class="img-fluid"
+                alt="services-6"
+              />
+            </figure>
+            <div class="service-data">
+              <div class="service-icon">
+                <i
+                  class="fa-solid fa-dumpster-fire"
+                  style="color: #0ea2bd; font-size: 45px"
+                ></i>
+              </div>
+              <h5 class="text-center pt-4">Aspire furniture</h5>
+              <p class="text-center pt-2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit...Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- our services Ends-->
+
+    <!-- Rating -->
+    <div class="container-fluid rating p-0">
+      <div class="rating-bg">
+        <div class="container p-5">
+          <!-- Carousel -->
+          <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="0"
+                class="active"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="3"
+              ></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div
+              class="carousel-inner"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <div class="carousel-item active">
+                <img
+                  src="img/testimonials-1.jpg"
+                  alt="testimonials-2"
+                  class="d-block m-auto"
+                  style="width: 90px; height: 90px; border-radius: 50%"
+                />
+                <h5 class="text-light fw-bold text-center pt-2">Ven Diesel</h5>
+                <p class="text-light text-center">CEO & FOunder</p>
+                <div class="stars">
+                  <i class="fa-solid fa-star" style="color: #fff94e"></i>
+                  <i class="fa-solid fa-star" style="color: #fff94e"></i>
+                  <i class="fa-solid fa-star" style="color: #fff94e"></i>
+                  <i class="fa-solid fa-star" style="color: #fff94e"></i>
+                  <i class="fa-solid fa-star" style="color: #fff94e"></i>
+                </div>
+                <p class="thought pt-4">
+                  "Adds a CSS transition and animation effect when sliding from
+                  one item to the next. Remove this class if you do not want
+                  this effect"
+                </p>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img/testimonials-2.jpg"
+                  alt="testimonials-2"
+                  class="d-block m-auto"
+                  style="width: 90px; height: 90px; border-radius: 50%"
+                />
+                <h5 class="text-light fw-bold text-center pt-2">
+                  Sweety Downey
+                </h5>
+                <p class="text-light text-center">Marketing Directop</p>
+                <div class="stars">
+                  <i class="fa-solid fa-star" style="color: #fff94e"></i>
+                  <i class="fa-solid fa-star" style="color: #fff94e"></i>
+                  <i class="fa-solid fa-star" style="color: #fff94e"></i>
+                  <i class="fa-solid fa-star" style="color: #fff94e"></i>
+                  <i class="fa-solid fa-star" style="color: #fff94e"></i>
+                </div>
+                <p class="thought pt-4">
+                  "Adds a CSS transition and animation effect when sliding from
+                  one item to the next. Remove this class if you do not want
+                  this effect"
+                </p>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img/testimonials-3.jpg"
+                  alt="testimonials-3"
+                  class="d-block m-auto"
+                  style="width: 90px; height: 90px; border-radius: 50%"
+                />
+                <h5 class="text-light fw-bold text-center pt-2">
+                  Elizabeth Carter
+                </h5>
+                <p class="text-light text-center">Manager</p>
+                <div class="stars">
+                  <i class="fa-solid fa-star" style="color: #fff94e"></i>
+                  <i class="fa-solid fa-star" style="color: #fff94e"></i>
+                  <i class="fa-solid fa-star" style="color: #fff94e"></i>
+                  <i class="fa-solid fa-star" style="color: #fff94e"></i>
+                  <i class="fa-solid fa-star" style="color: #fff94e"></i>
+                </div>
+                <p class="thought pt-4">
+                  "Adds a CSS transition and animation effect when sliding from
+                  one item to the next. Remove this class if you do not want
+                  this effect"
+                </p>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img/testimonials-4.jpg"
+                  alt="testimonials-4"
+                  class="d-block m-auto"
+                  style="width: 90px; height: 90px; border-radius: 50%"
+                />
+                <h5 class="text-light fw-bold text-center pt-2">John wick</h5>
+                <p class="text-light text-center">Employer</p>
+                <div class="stars">
+                  <i class="fa-solid fa-star" style="color: #fff94e"></i>
+                  <i class="fa-solid fa-star" style="color: #fff94e"></i>
+                  <i class="fa-solid fa-star" style="color: #fff94e"></i>
+                  <i class="fa-solid fa-star" style="color: #fff94e"></i>
+                  <i class="fa-solid fa-star" style="color: #fff94e"></i>
+                </div>
+                <p class="thought pt-4">
+                  "Adds a CSS transition and animation effect when sliding from
+                  one item to the next. Remove this class if you do not want
+                  this effect"
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Rating ends -->
+
+    <!-- Asked-Questions -->
+    <div class="container-fluid pt-5 pb-5 question">
+      <div class="row">
+        <div class="col-lg-6 px-5 order-last order-lg-first">
+          <h2 class="question-heading pt-4">
+            Frequently Asked <span>Question</span>
+          </h2>
+          <p class="text-secondary pb-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
+            aute irure dolor in reprehenderit
+          </p>
+
+          <!-- accordion -->
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div
+              class="accordion-item"
+              data-aos="fade-up"
+              data-aos-duration="800"
+            >
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  <i
+                    class="fa-regular fa-circle-question pe-3"
+                    style="color: #0ea2bd; font-size: 20px"
+                  ></i>
+                  Et harum quidem rerum facilis est et expedita distinctio?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Temporibus autem quibusdam et aut officiis debitis aut rerum
+                  necessitatibus saepe eveniet ut et voluptates repudiandae sint
+                  et molestiae non recusandae. Excepteur sint et non proident et
+                  non pro ident. Nullam et non pro ident
+                </div>
+              </div>
+            </div>
+            <div
+              class="accordion-item"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  <i
+                    class="fa-regular fa-circle-question pe-3"
+                    style="color: #0ea2bd; font-size: 20px"
+                  ></i>
+                  which of us laborious physical exercise, except to obtain some
+                  advantage from it?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque corrupti quos
+                  dolores et accus potent iterative consequ ante et eum dui
+                  accus potent iter.
+                </div>
+              </div>
+            </div>
+            <div
+              class="accordion-item"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  <i
+                    class="fa-regular fa-circle-question pe-3"
+                    style="color: #0ea2bd; font-size: 20px"
+                  ></i>
+                  when our power of choice is untrammelled and when nothing
+                  prevent?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Placeholder content for this accordion, which is intended to
+                  demonstrate theaccordion-flush class. This is the third item's
+                  accordion body. Nothing more exciting happening here in terms
+                  of content, but just filling up the space to make it look, at
+                  least at first glance, a bit more representative of how this
+                  would look in a real-world application.
+                </div>
+              </div>
+            </div>
+            <div
+              class="accordion-item"
+              data-aos="fade-up"
+              data-aos-duration="1400"
+            >
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFour"
+                >
+                  <i
+                    class="fa-regular fa-circle-question pe-3"
+                    style="color: #0ea2bd; font-size: 20px"
+                  ></i>
+                  which of us laborious physical exercise, except to obtain some
+                  advantage from it?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFour"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque corrupti quos
+                  dolores et accusamus et accusamus et accusamus et accusamus et
+                  accusamus et accusamus et
+                </div>
+              </div>
+            </div>
+            <div
+              class="accordion-item m-0"
+              data-aos="fade-up"
+              data-aos-duration="1400"
+            >
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFive"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFive"
+                >
+                  <i
+                    class="fa-regular fa-circle-question pe-3"
+                    style="color: #0ea2bd; font-size: 20px"
+                  ></i>
+                  which of us laborious physical exercise, except to obtain some
+                  advantage from it?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFive"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque corrupti quos
+                  dolores jdsj k fmce npoumform atque cum soluta nobis et.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-6 order-first mt-4 order-lg-last question-bg p-0"
+        ></div>
+      </div>
+    </div>
+    <!-- Asked-Questions ends -->
+
+    <!-- Portfolio -->
+    <section
+      class="portfolio"
+      id="portfolio"
+      style="padding-top: 100px"
+    >
+      <div
+        class="container pb-4 portfolio-header"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <h1 class="text-center pb-3 fw-light opacity-75">Portfolio</h1>
+        <p class="text-center">
+          Non hic nulla eum consequatur maxime ut vero memo vero totam officiis
+          pariatur eos dolorum sed fug dolorem est possimus esse quae
+          repudiandae.
+        </p>
+      </div>
+
+      <!-- Nav pills -->
+      <ul
+        class="nav nav-pills justify-content-center"
+        role="tablist"
+        data-aos="fade-up"
+        data-aos-duration="800"
+      >
+        <li class="nav-item">
+          <a class="nav-link active" data-bs-toggle="pill" href="#all">All</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="pill" href="#app">App</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="pill" href="#product">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="pill" href="#branding"
+            >Branding</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="pill" href="#books">Books</a>
+        </li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content" data-aos="fade-up" data-aos-duration="800">
+        <div id="all" class="tab-pane active">
+          <br />
+          <div class="row g-0">
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">App 1</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img src="img/app-1.jpg" alt="app1-img" class="img-fluid" />
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">Product 1</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img
+                src="img/product-1.jpg"
+                alt="product1-img"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">Branding 1</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img
+                src="img/branding-1.jpg"
+                alt="branding1-img"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">Books 1</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img src="img/books-1.jpg" alt="book-img1" class="img-fluid" />
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">App 2</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img src="img/app-2.jpg" alt="app2-img" class="img-fluid" />
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">Product 2</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img
+                src="img/product-2.jpg"
+                alt="product2-img"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">Branding 2</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img
+                src="img/branding-2.jpg"
+                alt="branding2-img"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">Books 2</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img src="img/books-2.jpg" alt="book2-img" class="img-fluid" />
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">App 3</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img src="img/app-3.jpg" alt="app3-img" class="img-fluid" />
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">Product 3</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img
+                src="img/product-3.jpg"
+                alt="product3-img"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">Branding 3</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img
+                src="img/branding-3.jpg"
+                alt="branding3-img"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">Books 3</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img src="img/books-3.jpg" alt="books3-img" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+        <div id="app" class="tab-pane fade">
+          <br />
+          <div class="row g-0 portfolio-row">
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">App 1</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img src="img/app-1.jpg" alt="app1-img" class="img-fluid" />
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">App 2</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img src="img/app-2.jpg" alt="app2-img" class="img-fluid" />
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">App 3</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img src="img/app-3.jpg" alt="app3-img" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+        <div id="product" class="tab-pane fade">
+          <br />
+          <div class="row g-0 portfolio-row">
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">Product 1</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img
+                src="img/product-1.jpg"
+                alt="product1-img"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">Product 2</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img
+                src="img/product-2.jpg"
+                alt="product2-img"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">Product 3</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img
+                src="img/product-3.jpg"
+                alt="product3-img"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+        <div id="branding" class="tab-pane fade">
+          <br />
+          <div class="row g-0 portfolio-row">
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">Branding 1</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img
+                src="img/branding-1.jpg"
+                alt="branding1-img"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">Branding 2</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img
+                src="img/branding-2.jpg"
+                alt="branding2-img"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">Branding 3</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img
+                src="img/branding-3.jpg"
+                alt="branding3-img"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+        <div id="books" class="tab-pane fade">
+          <br />
+          <div class="row g-0 portfolio-row">
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">Books 1</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img src="img/books-1.jpg" alt="books1-img" class="img-fluid" />
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">Books 2</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img src="img/books-2.jpg" alt="books2-img" class="img-fluid" />
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-img">
+              <div class="portfolio-info d-flex">
+                <h4 class="text-light">Books 3</h4>
+                <i
+                  class="fa-solid fa-circle-plus"
+                  style="color: #ffffff; font-size: 35px; cursor: crosshair"
+                ></i>
+              </div>
+              <img src="img/books-3.jpg" alt="books3-img" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio ends -->
+
+    <!-- our teams -->
+    <section class="our-teams" id="team" style="padding-top: 100px">
+      <div class="container">
+        <div data-aos="fade-up" data-aos-duration="1000">
+          <h1 class="text-center pb-3 fw-light opacity-75">Our Teams</h1>
+          <p class="text-center">
+            Here is our team's member name and a list of teams that we are
+            interested in creating for your project.
+          </p>
+        </div>
+        <div class="row">
+          <div
+            class="col-lg-4 col-md-6 teams"
+            data-aos="zoom-in"
+            data-aos-duration="900"
+          >
+            <figure>
+              <img src="img/team-1.jpg" alt="team1" class="img-fluid" />
+            </figure>
+            <div class="team-info text-center">
+              <div class="social d-flex">
+                <a href="#"
+                  ><span class="social-fonts"
+                    ><i
+                      class="fa-brands fa-2x fa-facebook fa-beat"
+                      style="color: #ffffff"
+                    ></i></span
+                ></a>
+                <a href="#"
+                  ><span class="social-fonts"
+                    ><i
+                      class="fa-brands fa-2x fa-instagram fa-beat"
+                      style="color: #ffffff"
+                    ></i></span
+                ></a>
+                <a href="#"
+                  ><span class="social-fonts"
+                    ><i
+                      class="fa-brands fa-2x fa-linkedin fa-beat"
+                      style="color: #ffffff"
+                    ></i></span
+                ></a>
+                <a href="#"
+                  ><span class="social-fonts"
+                    ><i
+                      class="fa-brands fa-2x fa-twitter fa-beat"
+                      style="color: #ffffff"
+                    ></i></span
+                ></a>
+              </div>
+              <h4 class="opacity-75">Walter White</h4>
+              <p>Cheif Executive Officer</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 teams"
+            data-aos="zoom-in"
+            data-aos-duration="1100"
+          >
+            <figure>
+              <img src="img/team-2.jpg" alt="team2" class="img-fluid" />
+            </figure>
+            <div class="team-info text-center">
+              <div class="social d-flex">
+                <a href="#"
+                  ><span class="social-fonts"
+                    ><i
+                      class="fa-brands fa-2x fa-facebook fa-beat"
+                      style="color: #ffffff"
+                    ></i></span
+                ></a>
+                <a href="#"
+                  ><span class="social-fonts"
+                    ><i
+                      class="fa-brands fa-2x fa-instagram fa-beat"
+                      style="color: #ffffff"
+                    ></i></span
+                ></a>
+                <a href="#"
+                  ><span class="social-fonts"
+                    ><i
+                      class="fa-brands fa-2x fa-linkedin fa-beat"
+                      style="color: #ffffff"
+                    ></i></span
+                ></a>
+                <a href="#"
+                  ><span class="social-fonts"
+                    ><i
+                      class="fa-brands fa-2x fa-twitter fa-beat"
+                      style="color: #ffffff"
+                    ></i></span
+                ></a>
+              </div>
+              <h4 class="opacity-75">Elizabeth Olsen</h4>
+              <p>Product Manger</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 teams"
+            data-aos="zoom-in"
+            data-aos-duration="1300"
+          >
+            <figure>
+              <img src="img/team-3.jpg" alt="team3" class="img-fluid" />
+            </figure>
+            <div class="team-info text-center">
+              <div class="social d-flex">
+                <a href="#"
+                  ><span class="social-fonts"
+                    ><i
+                      class="fa-brands fa-2x fa-facebook fa-beat"
+                      style="color: #ffffff"
+                    ></i></span
+                ></a>
+                <a href="#"
+                  ><span class="social-fonts"
+                    ><i
+                      class="fa-brands fa-2x fa-instagram fa-beat"
+                      style="color: #ffffff"
+                    ></i></span
+                ></a>
+                <a href="#"
+                  ><span class="social-fonts"
+                    ><i
+                      class="fa-brands fa-2x fa-linkedin fa-beat"
+                      style="color: #ffffff"
+                    ></i></span
+                ></a>
+                <a href="#"
+                  ><span class="social-fonts"
+                    ><i
+                      class="fa-brands fa-2x fa-twitter fa-beat"
+                      style="color: #ffffff"
+                    ></i></span
+                ></a>
+              </div>
+              <h4 class="opacity-75">Chrish Hemsworth</h4>
+              <p>CTO</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- our teams ends -->
+
+    <!-- contact -->
+    <section
+      class="contact"
+      id="contact"
+      style="padding-top: 100px"
+    >
+      <div class="container">
+        <h1 class="text-center pb-3 fw-light opacity-75">Contact</h1>
+        <p class="text-center">
+          You can contact us through the blow given form and get in touch.
+        </p>
+      </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3571.421934116293!2d87.272874!3d26.4743563!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef756c8744a805%3A0xb768fb6c3cc37be3!2sBross%20Solutions%20Pvt.%20Ltd%20%7C%20Software%20and%20Website%20Development%20Company%20in%20Biratnagar%2C%20Nepal!5e0!3m2!1sen!2snp!4v1692786436105!5m2!1sen!2snp"
+        style="height: 400px; width: 100%"
+        class="img-fluid p-0"
+      ></iframe>
+
+      <div class="container mt-4">
+        <div class="row gy-5 gx-lg-5">
+          <div class="col-lg-4 mt-5 px-5 py-4 getintouch">
+            <div class="mt-1">
+              <h3>Get in touch</h3>
+              <p class="opacity-75">
+                Here are our Email, Location, Phone number. From this you can
+                contact us, we are very thankful for it.
+              </p>
+              <div class="location d-flex mt-4">
+                <i
+                  class="fa-solid fa-location-crosshairs pe-4"
+                  style="color: #0ea4bd; font-size: 28px"
+                ></i>
+                <div>
+                  <h5>Location</h5>
+                  <p class="opacity-75" style="line-height: 8px">
+                    Biratnagar, Nepal.
+                  </p>
+                </div>
+              </div>
+              <div class="email d-flex mt-4">
+                <i
+                  class="fa-regular fa-envelope pe-4"
+                  style="color: #0ea4bd; font-size: 28px"
+                ></i>
+                <div>
+                  <h5>Email</h5>
+                  <p class="opacity-75" style="line-height: 8px">
+                    info@example.com
+                  </p>
+                </div>
+              </div>
+              <div class="email d-flex mt-4">
+                <i
+                  class="fa-solid fa-mobile-screen-button pe-4"
+                  style="color: #0ea4bd; font-size: 28px"
+                ></i>
+                <div>
+                  <h5>Call</h5>
+                  <p class="opacity-75" style="line-height: 8px">9800000001</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 mt-5">
+            <form action="#">
+              <div class="row">
+                <div class="col-lg-6 mb-3">
+                  <input
+                    type="text"
+                    class="form-control input-height"
+                    id="name"
+                    placeholder="Enter Your Name"
+                    name="name"
+                  />
+                </div>
+                <div class="col-lg-6 mb-3">
+                  <input
+                    type="email"
+                    class="form-control input-height"
+                    id="email"
+                    placeholder="Enter Email"
+                    name="email"
+                  />
+                </div>
+              </div>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control input-height"
+                  id="subject"
+                  placeholder="Subject"
+                  name="subject"
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control"
+                  rows="10"
+                  id="comment"
+                  name="text"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <a href="#" class="get-started mt-4">Send Message</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact ends -->
+    <!-- footer -->
+    <div class="container-fluid mt-5 footer">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-lg-3 col-md-6 mb-5">
+            <div class="footer-info">
+              <h3 class="text-light">HEROBIZ</h3>
+              <p class="text-light">Biratnagar, Nepal</p>
+              <p class="text-light">
+                <strong>Email:</strong> info@example.com<br />
+                <strong>Phone:</strong> 9800000001
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-light mb-3 footer-header">Useful Links</h4>
+            <ul class="footer-link">
+              <li class="mb-2">
+                <i
+                  class="fa-solid fa-arrow-right pe-3"
+                  style="color: #ffffff"
+                ></i
+                ><a href="#">Home</a>
+              </li>
+              <li class="mb-2">
+                <i
+                  class="fa-solid fa-arrow-right pe-3"
+                  style="color: #ffffff"
+                ></i
+                ><a href="#">About us</a>
+              </li>
+              <li class="mb-2">
+                <i
+                  class="fa-solid fa-arrow-right pe-3"
+                  style="color: #ffffff"
+                ></i
+                ><a href="#">Services</a>
+              </li>
+              <li class="mb-2">
+                <i
+                  class="fa-solid fa-arrow-right pe-3"
+                  style="color: #ffffff"
+                ></i
+                ><a href="#">Terms of Services</a>
+              </li>
+              <li class="mb-2">
+                <i
+                  class="fa-solid fa-arrow-right pe-3"
+                  style="color: #ffffff"
+                ></i
+                ><a href="#">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-light mb-3 footer-header">Our Services</h4>
+            <ul class="footer-link">
+              <li class="mb-2">
+                <i
+                  class="fa-solid fa-arrow-right pe-3"
+                  style="color: #ffffff"
+                ></i
+                ><a href="#">Web Design</a>
+              </li>
+              <li class="mb-2">
+                <i
+                  class="fa-solid fa-arrow-right pe-3"
+                  style="color: #ffffff"
+                ></i
+                ><a href="#">Web Development</a>
+              </li>
+              <li class="mb-2">
+                <i
+                  class="fa-solid fa-arrow-right pe-3"
+                  style="color: #ffffff"
+                ></i
+                ><a href="#">Product Management</a>
+              </li>
+              <li class="mb-2">
+                <i
+                  class="fa-solid fa-arrow-right pe-3"
+                  style="color: #ffffff"
+                ></i
+                ><a href="#">Marketing</a>
+              </li>
+              <li class="mb-2">
+                <i
+                  class="fa-solid fa-arrow-right pe-3"
+                  style="color: #ffffff"
+                ></i
+                ><a href="#">Graphic Design</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-light mb-3 footer-header">NewsLetter</h4>
+            <p class="text-light">
+              You can Subscribe our YouTube channel to get more information.
+            </p>
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search"
+                aria-label="Search"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="btn btn-outline-secondary subscribe-btn"
+                type="button"
+                id="button-addon2"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- scroll animaton -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
